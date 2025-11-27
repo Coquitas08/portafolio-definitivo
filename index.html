@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio personal</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JAVA SCRIPT/javaScript.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="logo-title">
+                <img src="https://mario.wiki.gallery/images/thumb/0/07/Kirby_SSBU.png/250px-Kirby_SSBU.png" alt="Logo">
+                <span class="titulo" data-es="Mi portafolio" data-en="My Portfolio">Mi portafolio</span>
+            </div>
+
+            <nav class="sidebar">
+                <span class="sidebar-title">Menú</span>
+                <ul>
+                    <li><a href="javascript:void(0)" onclick="mostrarSeccion('proyectos')" data-es="Proyectos" data-en="Projects">Proyectos</a></li>
+                    <li><a href="javascript:void(0)" onclick="mostrarSeccion('habilidades')" data-es="Habilidades" data-en="Skills">Habilidades</a></li>
+                    <li><a href="javascript:void(0)" onclick="mostrarSeccion('peliculas')" data-es="Películas" data-en="Movies">Películas</a></li>
+                    <li><a href="javascript:void(0)" onclick="mostrarSeccion('contacto')" data-es="Contacto" data-en="Contact">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <button id="theme-toggle" aria-label="Toggle light and dark mode">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1-8 8z"/>
+                    <path d="M12 7a5 5 0 0 0-5 5c0 .175.011.346.024.515C8.118 13.916 9.944 15 12 15s3.882-1.084 4.976-2.485A5 5 0 0 0 12 7z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="contenido-principal">
+            <div class="sobre-mi">
+                <img src="https://www.fangamer.com/cdn/shop/products/product_DR_light_ralsei_plush_main.png?crop=center&height=600&v=1691703482&width=900" alt="foto" class="foto-circular">
+                <h2 class="title-card" data-es="Sobre Mí" data-en="About Me">Sobre Mí</h2>
+                <p class="text-card" data-es="Hola, mi nombre es Connie Gaitán Gutierrez, tengo 17 años y actualmente estoy estudiando Informática Personal y Profesional en la E.E.S.T. N°6 'Chacabuco' Morón. Me apasiona la tecnología, el desarrollo de software y la creación de proyectos que aporten valor real a las personas. En este portafolio encontrarás algunos de mis trabajos y formas de contacto."
+                   data-en="Hi, my name is Connie Gaitán Gutierrez, I'm 17 years old and currently studying Personal and Professional Computing at E.E.S.T. N°6 'Chacabuco' in Morón. I’m passionate about technology, software development, and creating projects that bring real value to people. In this portfolio, you’ll find some of my work and ways to get in touch.">
+                   Hola, mi nombre es Connie Gaitán Gutierrez, tengo 17 años y actualmente estoy estudiando Informática Personal y Profesional en la E.E.S.T. N°6 "Chacabuco" Morón.
+                   Me apasiona la tecnología, el desarrollo de software y la creación de proyectos que aporten valor real a las personas. En este portafolio encontrarás algunos de mis trabajos y formas de contacto.
+                </p>
+            </div>
+
+            <div class="secciones">
+                <section id="proyectos" class="seccion">
+                    <div class="cuadro-seccion">
+                        <div class="cuadro-tp">
+                            <h2 data-es="Mis Proyectos" data-en="My Projects">Mis Proyectos</h2>
+
+                            <h3 data-es="1. Página Web de Recetario" data-en="1. Recipe Website">1. Página Web de Recetario</h3>
+                            <p data-es="Desarrollé un sitio web simple en HTML, CSS y JavaScript que permite guardar y visualizar recetas de cocina. Fue uno de mis primeros proyectos aplicando diseño responsivo y almacenamiento local con JavaScript."
+                               data-en="I developed a simple website using HTML, CSS, and JavaScript to save and view cooking recipes. It was one of my first projects applying responsive design and local storage with JavaScript.">
+                               Desarrollé un sitio web simple en HTML, CSS y JavaScript que permite guardar y visualizar recetas de cocina. Fue uno de mis primeros proyectos aplicando diseño responsivo y almacenamiento local con JavaScript.
+                            </p>
+
+                            <h3 data-es="2. Calculadora Básica" data-en="2. Basic Calculator">2. Calculadora Básica</h3>
+                            <p data-es="Utilizando C++, realicé una calculadora funcional con operaciones básicas (suma, resta, multiplicación y división). Me ayudó a practicar manipulación del DOM y eventos."
+                               data-en="Using C++, I created a functional calculator with basic operations (addition, subtraction, multiplication, and division). It helped me practice DOM manipulation and event handling.">
+                               Utilizando c++, realicé una calculadora funcional con operaciones básicas (suma, resta, multiplicación y división). Me ayudó a practicar manipulación del DOM y eventos.
+                            </p>
+
+                            <h3 data-es="3. Sistema de Login Local" data-en="3. Local Login System">3. Sistema de Login Local</h3>
+                            <p data-es="Simulé un sistema de inicio de sesión para una página web, donde se validan credenciales desde un arreglo local. Este proyecto me permitió reforzar estructuras condicionales y funciones en JavaScript."
+                               data-en="I simulated a login system for a website, validating credentials from a local array. This project helped me strengthen my understanding of conditionals and functions in JavaScript.">
+                               Simulé un sistema de inicio de sesión para una página web, donde se validan credenciales desde un arreglo local. Este proyecto me permitió reforzar estructuras condicionales y funciones en JavaScript.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contacto" class="seccion">
+                    <div class="cuadro-seccion">
+                        <article>
+                            <h2 data-es="Contáctame" data-en="Contact Me">Contáctame</h2>
+                            <p data-es="¡Me encantaría saber de ti! Llena el formulario a continuación para ponerte en contacto."
+                               data-en="I’d love to hear from you! Fill out the form below to get in touch.">
+                               ¡Me encantaría saber de ti! Llena el formulario a continuación para ponerte en contacto.
+                            </p>
+                
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="nombreCompleto" data-es="Nombre Completo:" data-en="Full Name:">Nombre Completo:</label>
+                                    <input type="text" id="nombreCompleto" name="nombreCompleto" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" data-es="Email:" data-en="Email:">Email:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <button type="submit" data-es="Enviar Mensaje" data-en="Send Message">Enviar Mensaje</button>
+                            </form>
+                        </article>
+                    </div>
+                </section>
+
+                <div id="mensajeAgradecimiento" class="mensaje-agradecimiento"></div>
+
+                <section id="habilidades" class="seccion">
+                    <div class="cuadro-seccion">
+                        <div class="habilidades-grid">
+                            <div class="cuadro-habilidad">
+                                <h3 data-es="Manejo de lenguajes de programación" data-en="Programming Languages">Manejo de lenguajes de programación</h3>
+                                <ul>
+                                    <li>- HTML (Intermedio)</li>
+                                    <li>- CSS (Intermedio)</li>
+                                    <li>- JavaScript (Básico)</li>
+                                    <li>- C++ (Básico)</li>
+                                </ul>
+                            </div>
+                            <div class="cuadro-habilidad">
+                                <h3 data-es="Idiomas" data-en="Languages">Idiomas</h3>
+                                <ul>
+                                    <li>- Español (Nativo)</li>
+                                    <li>- Inglés (Básico)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="peliculas" class="seccion">
+                    <div class="cuadro-seccion">
+                        <article class="pelicula-card">
+                            <img src="https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/Z-WHgqd_TeJxSuha8aZ5WpyLcX8/AAAABcuFa4DWW-nvKsSJ5wTPl-rmfnmtQnVri2jHS6ren6YXRlHoDah_OTqTxz8O0axtkYtzp4XdLncsnmhICUc1NFM641ZTahZ3sIJZ.jpg?r=2f1" alt="Peli1">
+                            <h3>WONDERLAND</h3>
+                            <p data-es="La inteligencia artificial permite a las personas hablar con los seres queridos que han perdido. Jeong-in, una azafata de vuelo, pide reunirse con su novio Tae-joo, que está en coma."
+                               data-en="Artificial intelligence allows people to talk with lost loved ones. Jeong-in, a flight attendant, asks to meet her boyfriend Tae-joo, who is in a coma.">
+                               La inteligencia artificial permite a las personas hablar con los seres queridos que han perdido. Jeong-in, una azafata de vuelo, pide reunirse con su novio Tae-joo, que está en coma.
+                            </p>
+                        </article>
+
+                        <article class="pelicula-card">
+                            <img src="https://i.ytimg.com/vi/r1u1zWsY4DU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA2MJXOzTDC9sha8EhJ9QcCPIZhdQ" alt="Peli2">
+                            <h3>JOHN WICK 1</h3>
+                            <p data-es="En Nueva York, John Wick, un asesino a sueldo retirado, vuelve otra vez a la acción para vengarse de los gánsteres que le quitaron todo: El amor de su vida, su mascota e incluso su libertad."
+                               data-en="In New York, John Wick, a retired hitman, returns to action to take revenge on the gangsters who took everything from him: his love, his dog, and even his freedom.">
+                               En Nueva York, John Wick, un asesino a sueldo retirado, vuelve otra vez a la acción para vengarse de los gánsteres que le quitaron todo: El amor de su vida, su mascota e incluso su libertad.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="nav-redes">
+            <ul class="redes-texto">
+                <li>
+                    <a href="https://www.instagram.com/leomessi/" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" width="30" height="30">
+                        Instagram
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Coquitas08" target="_blank">
+                        <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=FFFFFF" alt="GitHub" width="30" height="30">
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
